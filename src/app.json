@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/blog/main",
+        "pages/index/main",
+        "pages/search/main",
+        "pages/profile/main",
+        "pages/toolPage/clock/main",
+        "pages/toolPage/classroom/main",
+        "pages/toolPage/competition/main",
+        "pages/toolPage/random/main"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#6d6875"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/index/main",
+                "text": "Home",
+                "iconPath": "/static/tabs/Home/N_index.png",
+                "selectedIconPath": "/static/tabs/Home/S_index.png"
+            },
+            {
+                "pagePath": "pages/search/main",
+                "text": "Search",
+                "iconPath": "/static/tabs/Search/N_search.png",
+                "selectedIconPath": "/static/tabs/Search/S_search.png"
+            },
+            {
+                "pagePath": "pages/blog/main",
+                "text": "Blog",
+                "iconPath": "/static/tabs/Blog/N_blog.png",
+                "selectedIconPath": "/static/tabs/Blog/S_blog.png"
+            },
+            {
+                "pagePath": "pages/profile/main",
+                "text": "Profile",
+                "iconPath": "/static/tabs/Profile/N_profile.png",
+                "selectedIconPath": "/static/tabs/Profile/S_profile.png"
+            }
+        ]
+    }
+}
