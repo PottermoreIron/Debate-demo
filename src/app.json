@@ -1,19 +1,38 @@
 {
     "pages": [
-        "pages/blog/main",
         "pages/index/main",
         "pages/search/main",
         "pages/profile/main",
+        "pages/comment/main",
+        
+        "pages/toolPage/random/main",
+        "pages/register/main",
+        "pages/blogDetail/main",
+        "pages/myBlogDetail/main",
+        "pages/myCollectionDetail/main",
+        "pages/blog/main",
+        "pages/editBlog/main",
+        "pages/captainMessage/main",
+        "pages/set/main",
+        
         "pages/toolPage/clock/main",
         "pages/toolPage/classroom/main",
         "pages/toolPage/competition/main",
-        "pages/toolPage/random/main"
+        "pages/myBlog/main",
+        "pages/myCollection/main",
+        "pages/setChoice/changeUserName/main",
+        "pages/setChoice/changePassword/main",
+        "pages/logOn/main"
+        
     ],
     "window": {
-        "navigationBarBackgroundColor": "#6d6875"
+        "navigationBarBackgroundColor": "#6d6875",
+        "enablePullDownRefresh":true
     },
     "tabBar": {
         "position": "bottom",
+        "selectedColor": "#FFFFFF",
+        "backgroundColor": "#6d6875",
         "list": [
             {
                 "pagePath": "pages/index/main",

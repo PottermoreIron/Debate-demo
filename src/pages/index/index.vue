@@ -70,61 +70,71 @@
 
 <script>
 export default {
-  methods:{
-    toClock(){
-      wx.navigateTo({ url: '/pages/toolPage/clock/main' });
+  methods: {
+    toClock() {
+      wx.navigateTo({ url: "/pages/toolPage/clock/main" });
     },
-    toClassroom(){
-      wx.navigateTo({ url: '/pages/toolPage/classroom/main' });
+    toClassroom() {
+      wx.navigateTo({ url: "/pages/toolPage/classroom/main" });
     },
-    toCompetition(){
-      wx.navigateTo({ url: '/pages/toolPage/competition/main' });
+    toCompetition() {
+      wx.navigateTo({ url: "/pages/toolPage/competition/main" });
     },
-    toRandom(){
-      wx.navigateTo({ url: '/pages/toolPage/random/main' });
-    }
-
-  }
-
-}
+    toRandom() {
+      wx.navigateTo({ url: "/pages/toolPage/random/main" });
+    },
+  },
+};
 </script>
 
 <style>
-  .indexContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 240rpx 0rpx 0rpx 0rpx;
-  }
-  .clock,
-  .competition,
-  .classroom,
-  .random {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 70rpx;
-    box-shadow: 0 1rpx 4rpx rgba(0, 0, 0, 0.27),
-      0 0 40rpx rgba(0, 0, 0, 0.06) inset;
-    margin: 12rpx;
-    width: 350rpx;
-    height: 350rpx;
-  }
-  .bubbleImage {
-    width: 200rpx;
-    height: 200rpx;
-  }
-  .clockImage,
-  .competitionImage,
-  .classroomImage,
-  .randomImage {
-    width: 80rpx;
-    height: 80rpx;
-  }
-  .iText {
-    position: relative;
-    bottom: 140rpx;
-  }
+.indexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 240rpx 0rpx 0rpx 0rpx;
+}
+.clock,
+.competition,
+.classroom,
+.random {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70rpx;
+  box-shadow: 0 1rpx 4rpx rgba(0, 0, 0, 0.27),
+    0 0 40rpx rgba(0, 0, 0, 0.06) inset;
+  margin: 12rpx;
+  width: 350rpx;
+  height: 350rpx;
+}
+.clock {
+  background-color: #1b998b;
+}
+.competition {
+  background-color: #fe938c;
+}
+.classroom {
+  background-color: #ee778d;
+}
+.random {
+  background-color: #eef5db;
+}
+.bubbleImage {
+  width: 200rpx;
+  height: 200rpx;
+}
+.clockImage,
+.competitionImage,
+.classroomImage,
+.randomImage {
+  width: 80rpx;
+  height: 80rpx;
+}
+.iText {
+  position: relative;
+  bottom: 140rpx;
+}
 </style>

@@ -1,0 +1,5 @@
+export const RECEIVE_BLOG='receive_blog'
+export const RECEIVE_USER='receive_user'
+export const RECEIVE_MYBLOG='receive_myblog'
+export const RECEIVE_MYCOLLECTION='receive_mycollection'
+export const RECEIVE_COMMENT='receive_comment'
